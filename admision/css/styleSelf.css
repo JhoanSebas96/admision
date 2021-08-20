@@ -1,0 +1,38 @@
+.form-control, .dataTable-input, .form-select{
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: none !important;
+  border-bottom: 1px solid #ced4da !important;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border-radius: 0 !important;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus, .dataTable-input:focus, .form-select:focus {
+    color: #212529;
+    background-color: #fff;
+    border-bottom-color: #86b7fe !important;
+    outline: 0;
+    box-shadow: none !important;
+}
+.file{
+    border: 1px solid #dee2e6 !important;
+    border-radius: 0.25rem !important;
+}
+
+.b-example-divider {
+    height: 2rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, .1), inset 0 0.125em 0.5em rgba(0, 0, 0, .15);
+}
